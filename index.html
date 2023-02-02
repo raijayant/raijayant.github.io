@@ -1,7 +1,8 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>SiteBanau</title>
+		<title>SiteBanau | Home</title>
+		<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -15,9 +16,6 @@
 	  <script type="text/javascript"
   src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
-<script type="text/javascript">
-  emailjs.init('jb958vOc9-inqMv6a')
-</script>
 	</head>
 	<body class="is-preload">
 
@@ -45,7 +43,9 @@
 						<ul class="links">
 							<li class="active"><a href="index.html">Home</a></li>
 							<li><a href="projects.html">Projects</a></li>
-							<!-- <li><a href="elements.html">Elements Reference</a></li> -->
+							<li><a href="#whyus" class="scrolly">Why Us</a></li>
+							<li><a href="#services" class="scrolly">Services</a></li>
+							<li><a href="#contact" class="scrolly">Contact</a></li>
 						</ul>
 						<ul class="icons">
 							<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
@@ -62,41 +62,47 @@
 							<article class="post featured">
 								<header class="major">
 									<span class="date" id="datetime"></span>
-									<h2><a href="#">Welcome<br />
-									to Sitebanau</a></h2>
-									<p>SiteBanau is a <strong>Premium IT</strong> and <strong>Web Design</strong> company based in Richmond, California that provides Information Communication Technology (ICT) solutions, tech products for business needs, and online services using latest technologies for a modern and responsive result.
- We can cater our services to your business needs, with us you will always get a personalized experience. Our services include website design & hosting, software development and a host of other ICT related services. Please explore around our site to learn more!</p>
+									<h2><a>Welcome<br />
+									to Sitebanau</h2></a>
+									<p>SiteBanau is a <strong>Premium IT</strong> and <strong>Web Design</strong> company based in Richmond, California that provides Information Communication
+									   Technology (ICT) solutions, tech products for business needs, and online services using latest technologies for a modern and responsive result.
+ 									   We can cater our services to your business needs, with us you will always get a personalized experience. Our services include website design & hosting,
+									   software development and a host of other ICT related services. Please explore around our site to learn more!</p>
 								</header>
-								<a href="#" class="image main"><img src="images/image-main.jpg" alt="" /></a>
+								<a class="image main"><img src="images/image-main.jpg" alt="" /></a>
 								<!-- <ul class="actions special">
 									<li><a href="#" class="button large">Full Story</a></li>
 								</ul> -->
 							</article>
 
 							<article class="post featured">
-								<header class="major">
+								<header class="major" id="whyus">
 
 									<h2><a>Why sitebanau</a></h2>
-									<p>We deliver web solutions that are high quality, technically advanced & high performance. The web solutions we develop are not only visually stunning and user-friendly but also high performance, which deliver tangible results. We develop web solutions ranging from ecommerce portals, enterprise solutions and more.</p>
+									<p>We deliver web solutions that are high quality, technically advanced & high performance. The web solutions we develop are not only visually stunning and
+									   user-friendly but also perform optimally, which delivers tangible results to our clients. We develop web solutions ranging from ecommerce portals, enterprise solutions and more. Feel free to contact us!</p>
+									<a href="#contact" class="button large scrolly">Contact Us</a>
 								</header>
-								<a href="#" class="image main"><img src="images/pic16.jpg" alt="" /></a>
+								<a class="image main"><img src="images/pic16.jpg" alt="" /></a>
 								<!-- <ul class="actions special">
 									<li><a href="#" class="button large">Full Story</a></li>
 								</ul> -->
 							</article>
+							<article class="post featured">
+								<header class="major" id="services">
+									<h2><a>Our Services</a></h2>
+								</header>
+							</article>
 
 						<!-- Posts -->
 							<section class="posts">
-
-
 								<article>
-
-
-
 									<header>
+										<a href="#contact" class="scrolly">
 									<div><i class="fa fa-2x fa-thin fa-laptop"></i></div>
 
 										<h2>Website Development</h2>
+									</a>
 										<p>Custom website design and development to help you create a professional online presence and improve your brand image.</p>
 									</header>
 
@@ -105,9 +111,11 @@
 								</article>
 								<article>
 									<header>
+										<a href="#contact" class="scrolly">
+											<div><i class="fa fa-2x fa-thin fa-mobile"></i></div>
 
-									   <div><i class="fa fa-2x fa-thin fa-mobile"></i></div>
-										<h2>Mobile App Development</h2>
+												<h2>Mobile App Development</h2>
+											</a>
 										<p>Professional app development services to help you create user-friendly and engaging mobile applications.</p>
 									</header>
 
@@ -116,9 +124,11 @@
 								</article>
 								<article>
 									<header>
-									   <div><i class="fa fa-2x fa-thin fa-magnifying-glass"></i></div>
+										<a href="#contact" class="scrolly">
+											<div><i class="fa fa-2x fa-thin fa-magnifying-glass"></i></div>
 
-										<h2>Search Engine Optimization</h2>
+												<h2>Search Engine Optimization</h2>
+											</a>
 										<p>Help you increase your online visibility and reach your target audience with effective SEO strategies.</p>
 									</header>
 
@@ -127,9 +137,11 @@
 								</article>
 								<article>
 									<header>
-									  <div><i class="fa fa-2x fa-solid fa-w"></i></div>
+										<a href="#contact" class="scrolly">
+											<div><i class="fa fa-2x fa-solid fa-w"></i></div>
 
-										<h2>Wix Site Development</h2>
+												<h2>Wix Site Development</h2>
+											</a>
 										<p>Creation of visually appealing and functional Wix websites to help you quickly establish an online presence.</p>
 									</header>
 
@@ -138,10 +150,10 @@
 								</article>
 								<article>
 									<header>
-									 <div><i class="fa fa-2x fa-thin fa-layer-group"></i></div>
-
-
-										<h2>Full Stack Development</h2>
+										<a href="#contact" class="scrolly">
+											<div><i class="fa fa-2x fa-thin fa-layer-group"></i></div>
+											<h2>Full Stack Development</h2>
+										</a>
 										<p>Comprehensive web development services covering all aspects of website development, from the front-end to the back-end, to help you create a complete web application.</p>
 									</header>
 
@@ -150,9 +162,10 @@
 								</article>
 								<article>
 									<header>
-									  <div><i class="fa fa-2x fa-light fa-globe"></i></div>
-
-										<h2>Domain & Hosting</h2>
+										<a href="#contact" class="scrolly">
+											<div><i class="fa fa-2x fa-light fa-globe"></i></div>
+											<h2>Domain & Hosting</h2>
+										</a>
 										<p>Professional and reliable domain and hosting services to help you keep your website up and running smoothly.</p>
 									</header>
 
@@ -161,12 +174,16 @@
 								</article>
 							</section>
 
-
-
+							<article class="post featured">
+								<header class="major" id="contact">
+									<h2><a>Contact Us</a></h2>
+								</header>
+							</article>
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
+
 
 					<article id="myDIV" class="fields"  style="display:none">
 									<header>
@@ -225,6 +242,10 @@
 							</section>
 						</section>
 					</footer>
+
+					<div id="copyright">
+						<a href="#header" class="button large scrolly">Back To top</a>
+					</div>
 
 				<!-- Copyright -->
 					<div id="copyright">
