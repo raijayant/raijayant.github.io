@@ -183,7 +183,7 @@
 
 				<!-- Copyright -->
 				<div id="copyright">
-					<ul style="color:white;">Copyright Ⓒ 2023 <a href="https://sitebanau.com">SiteBanau</a>. All Rights Reserved.</ul>
+					<ul style="color:white;">Copyright Ⓒ <span class="date" id="yearly"></span> <a href="https://sitebanau.com">SiteBanau</a>. All Rights Reserved.</ul>
 				</div>
 
 			</div>
@@ -196,6 +196,13 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+			var day=new Date();
+			const autoYearly= {year:"numeric", timeZone:"America/Los_Angeles"};
+			const autoYear=day.toLocaleDateString("en-US", autoYearly);
+			document.getElementById("yearly").innerHTML = autoYear;
+			</script>
 
 	</body>
 </html>
